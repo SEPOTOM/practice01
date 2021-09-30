@@ -1,0 +1,233 @@
+/* &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,600&display=swap");
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    font-size: 16px;
+    /* по умолчанию */
+}
+
+body {
+    line-height: 1;
+    font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+
+/* ------------GLOBAL------------------ */
+
+
+/* -----------HEADER&FOOTER-------------- */
+
+.header,
+.footer {
+    color: #b63131;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    border: 5px double #ca7423;
+    margin: 0 0 50px 0;
+}
+
+.footer {
+    margin: 0;
+}
+
+
+/* --------------CAR-REPEAR----------- */
+
+.carrepear {
+    background-color: #f5f5f5;
+}
+
+.about {
+    background-color: #fff;
+    padding: 100px 87px 0 87px;
+    margin: 0 0 150px 0;
+}
+
+.titles {
+    margin: 0 0 36px 0;
+    max-width: 583px;
+}
+
+.subtitlebody {
+    margin: 0 0 33px 0;
+}
+
+.subtitleimage {
+    margin: 0 16px 0 0;
+}
+
+.subtitle {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 225%;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #4b4b4b;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 117%;
+    color: #02133C;
+}
+
+.text,
+.cardtext {
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.15px;
+    color: #4b4b4b;
+    margin: 0 0 54px 0;
+}
+
+.image {
+    max-width: 100%;
+    margin: 0 0 -120px 0;
+}
+
+.cards {
+    border-bottom: 5px dashed #3f6994;
+}
+
+.card {
+    background-color: #fff;
+    max-width: 324px;
+    padding: 50px 44px;
+    text-align: center;
+    margin: 0 0 24px 0;
+}
+
+.caardimage {
+    margin: 0 0 33px 0;
+}
+
+.cardtitle {
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 137%;
+    color: #02133C;
+    margin: 0 0 20px 0;
+}
+
+.cardtext {
+    margin: 0;
+}
+
+
+/* ----TECH-ONLINE-STORE-DESIGN-------------- */
+
+.storedesign {
+    font-family: "Poppins", sans-serif;
+}
+
+.termandconditions {
+    padding: 30px;
+    margin: 0 0 50px 0;
+}
+
+.poppinstitle,
+.poppinssubtitle {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    margin: 0 0 26px 0;
+}
+
+.poppinssubtitle {
+    font-size: 24px;
+    margin: 0 0 50px 0;
+    text-transform: uppercase;
+}
+
+.poppinsmintitle,
+.poppinstext {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 162%;
+    margin: 0 0 25px 0;
+}
+
+.poppinstext {
+    font-weight: 300;
+}
+
+.m0 {
+    margin: 0;
+}
+
+.productsqual {
+    margin: 50px;
+    max-width: 465px;
+}
+
+.starimage {
+    margin: 0 0 9px 0;
+}
+
+.qualtitle {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 58px;
+    margin: 0 0 25px 0;
+}
+
+.qualtext {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 144%;
+}
